@@ -1,0 +1,7 @@
+"Rule: ocaml dependencies mli (%=src/new )": "J\183g\197\255S\2416\2552\181]Y\174\021>"
+"Resource: /Users/mellaz/Documents/bes/bes-ocaml/new/src/new.mli": ")\136<\196a\003\135J+\222u=\241\250\179i"
+"Resource: /Users/mellaz/Documents/bes/bes-ocaml/new/src/new.ml": "\138\203$\012;\143\212\226\207\007\165NR\209\0255"
+"Rule: ocaml: ml & cmi -> cmx & o (%=src/new )": "nz\253\017\235X\130\135\250\017\209\249\193\012\191+"
+"Rule: ocaml dependencies ml (%=src/new )": "-\179\207\030Z^\254\245\249C\173\250E?\203\169"
+"Rule: ocaml: cmx* & o* -> native (%=src/new )": "\130\206d\003j\203\184\232\n\252\239\248\164\148\t\226"
+"Rule: ocaml: mli -> cmi (%=src/new )": "\\\rB\194)\219\187\236\243_\177\240\187 =\155"

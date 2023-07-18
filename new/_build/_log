@@ -1,0 +1,12 @@
+### Starting build.
+# Target: src/new.ml.depends, tags: { package(zarith), bin_annot, debug, extension:ml, file:src/new.ml, ocaml, ocamldep, quiet, warn_Y, warn_Z }
+ocamlfind ocamldep -package zarith -modules src/new.ml > src/new.ml.depends
+# Target: src/new.mli.depends, tags: { package(zarith), bin_annot, debug, extension:mli, file:src/new.mli, ocaml, ocamldep, quiet, warn_Y, warn_Z }
+ocamlfind ocamldep -package zarith -modules src/new.mli > src/new.mli.depends
+# Target: src/new.cmi, tags: { package(zarith), bin_annot, byte, compile, debug, extension:mli, file:src/new.mli, interf, ocaml, quiet, warn_Y, warn_Z }
+ocamlfind ocamlc -c -g -bin-annot -w Y -w Z -package zarith -I src -o src/new.cmi src/new.mli
+# Target: src/new.cmx, tags: { package(zarith), bin_annot, compile, debug, extension:cmx, extension:ml, file:src/new.cmx, file:src/new.ml, implem, native, ocaml, quiet, warn_Y, warn_Z }
+ocamlfind ocamlopt -c -g -bin-annot -w Y -w Z -package zarith -I src -o src/new.cmx src/new.ml
+# Target: src/new.native, tags: { package(zarith), bin_annot, debug, dont_link_with, extension:native, file:src/new.native, link, native, ocaml, program, quiet, warn_Y, warn_Z }
+ocamlfind ocamlopt -linkpkg -g -package zarith -I src src/new.cmx -o src/new.native
+# Compilation successful.

@@ -1,4 +1,5 @@
-# Braodcast-Encryption-Schemes
+# bes ocaml
+
 In this project, we implement three existing broadcast encryption schemes: ElGamal baseline, Boneh-Franklin, and a new scheme based on ElGamal.
 
 
