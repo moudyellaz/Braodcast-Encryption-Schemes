@@ -1,14 +1,18 @@
-# bes ocaml
+# Broadcast Encryption Scheme in Ocaml
 
-In this project, we implement three existing broadcast encryption schemes: ElGamal baseline, Boneh-Franklin, and a new scheme based on ElGamal.
+## Introduction
+
+In this project, two existing broadcast encryption schemes are implemented: ElGamal baseline, Boneh-Franklin. In addition, a new scheme based on ElGamal is implemented as well.
+
+## Usage
 
 
 For testing, you can run the following code in terminal:
 
-cd folder_location
+1. 'cd folder_location'
 
-eval $(opam env)
+2. 'eval $(opam env)'
 
-ocamlbuild -use-ocamlfind -I src -I lib src/filename.native
+3. 'ocamlbuild -use-ocamlfind -I src -I lib src/filename.native'
 
 Note that only Zarith package is needed in order to compile Bignum.
