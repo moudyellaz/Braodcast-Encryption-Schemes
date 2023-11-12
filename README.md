@@ -9,10 +9,15 @@ In this project, two existing broadcast encryption schemes are implemented: ElGa
 
 For testing, you can run the following code in terminal:
 
-1. `d folder_location`
+1. `cd folder_location`
 
 2. `eval $(opam env)`
 
 3. `ocamlbuild -use-ocamlfind -I src -I lib src/filename.native`
 
 Note that only Zarith package is needed in order to compile Bignum.
+
+
+## License
+
+[Apache 2.0]https://github.com/moudyellaz/Braodcast-Encryption-Schemes/blob/main/LICENSE)
