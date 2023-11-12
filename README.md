@@ -20,4 +20,5 @@ Note that only Zarith package is needed in order to compile Bignum.
 
 ## License
 
-[Apache 2.0]https://github.com/moudyellaz/Braodcast-Encryption-Schemes/blob/main/LICENSE)
+[Apache 2.0](https://github.com/moudyellaz/Braodcast-Encryption-Schemes/blob/main/LICENSE)
+
